@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Challenge</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+      }
+      html,
+      body {
+        height: 100vh;
+        line-height: 1.5;
+        font-family: "Montserrat";
+        font-weight: 350;
+        color: black;
+      }
+
+      .root {
+        min-height: 100vh;
+      }
+
+      .header-wrapper,
+      .main-wrapper,
+      .footer-wrapper {
+        width: 85%;
+        margin: auto;
+        /* background-color: aliceblue; */
+      }
+
+      .header-wrapper,
+      .main-wrapper {
+        padding: 10px;
+        margin: 2px auto;
+      }
+
+      h1 {
+        font-size: 60px;
+        font-weight: 350;
+        font-family: "Montserrat";
+      }
+
+      h2,
+      h3 {
+        font-weight: 350;
+      }
+
+      header {
+        background-color: #61dbfb;
+        padding: 10px;
+      }
+
+      main {
+        padding: 10px;
+        padding-bottom: 60px;
+      }
+      ul li {
+        list-style: none;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #6cf;
+      }
+
+      .footer-wrapper {
+        font-weight: 400;
+        text-align: center;
+        line-height: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root"></div>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+      const rootElement = document.querySelector(".root");
+
+      //   const headerStyle = {
+      //     backgroundColor: "#61DBFB",
+      //     fontFamily: "Helvetica Neue",
+      //     padding: "20px",
+      //     lineHeight: 1.5,
+      //     display: "flex",
+      //     flexDirection: "column",
+      //     justifyContent: "center",
+      //     alignItems: "center",
+      //   };
+
+      // one way to style the react components is like this as shown above, then link style to element
+
+      const welcome = "30 day react challenge (Day 2)";
+      const title = "Getting started React";
+      const subtitle = "Javascript Library ";
+      const fname = "Adnan";
+      const lname = "Bhanji ";
+      const date = "February 21, 2003";
+
+      const header = (
+        // <header style={headerStyle}>
+        // <header>
+        //   <div className="header-wrapper">
+        //     <h1>30 day react challenge (Day 2)</h1>
+        //     <h2>Getting started React </h2>
+        //     <h3>Javascript Library </h3>
+        //     <p> Adnan Bhanji </p>
+        //     <small> February 21, 2003 </small>
+        //   </div>
+        // </header>
+
+        // the above is hard coded data, can also get dynamic data
+        <header>
+          <div className="header-wrapper">
+            <h1>{welcome}</h1>
+            <h2>{title}</h2>
+            <h3>{subtitle}</h3>
+            <p>
+              {" "}
+              {fname} {lname}{" "}
+            </p>
+            <small> Date: {date} </small>
+          </div>
+        </header>
+      );
+
+      //   const mainStyle = {
+      //     backgroundColor: "#F3F0F5",
+      //     padding: "20px",
+      //   };
+
+      const web_dev = ["HTML", "CSS", "Javascript"];
+      const web_dev_mapped = web_dev.map((tech) => (
+        <li key={tech}>{tech} 👍</li>
+      ));
+      const tech_stack = [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Python",
+        "Node",
+        "Docker",
+        "SQL",
+      ];
+      const tech_stack_mapped = tech_stack.map((tech_s) => (
+        <li key={tech_s}>{tech_s}</li>
+      ));
+
+      const main = (
+        // <main style={mainStyle}>
+        <main>
+          <div className="main-wrapper">
+            <p>Prerequisite to get started react.js:</p>
+            <ul>{web_dev_mapped}</ul>
+            <br />
+            <br />
+            <p>These are some of the technologies I have worked with:</p>
+            <ul>{tech_stack_mapped}</ul>
+          </div>
+        </main>
+      );
+      //   const footerStyle = {
+      //     backgroundColor: "#61DBFB",
+      //     padding: "15px",
+      //   };
+
+      const footer = (
+        // <footer style={footerStyle}>
+        <footer>
+          <div className="footer-wrapper">
+            <p>Copyright 2023 </p>
+          </div>
+        </footer>
+      );
+
+      const app = (
+        <div>
+          {header}
+          {main}
+          {footer}
+        </div>
+      );
+
+      ReactDOM.render(app, rootElement);
+    </script>
+  </body>
+</html>
