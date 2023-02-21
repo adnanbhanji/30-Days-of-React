@@ -1,4 +1,4 @@
-# 30-Days-of-React
+# 30-Days-of-React Challenge
 
 Day 1
 
