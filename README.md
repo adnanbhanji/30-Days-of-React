@@ -1,4 +1,4 @@
-# 30-Days-of-React Challenge
+# 30-Days-of-React
 
 Day 1
 
@@ -10,3 +10,11 @@ Day 2
 Although I already had prior knowledge of React, on Day 2 of my React challenge, I followed the planned curriculum to solidify my understanding of the fundamentals. I spent the day learning about the basics of React, including JSX, Babel, and how React works under the hood, including the concept of Virtual DOM.
 
 Overall, Day 2 helped me to reinforce my understanding of React fundamentals and set me up for success as I progressed to more advanced topics in the coming days of the challenge.
+
+Day 3
+
+On the third day, I downloaded the necessary extensions and applications required to run React. Once the setup was complete, I used the terminal to create a React app using create-react-app. During this process, I learned how to render JSX, inject data into JSX elements, and import media objects in React. Finally, I completed a series of exercises that involved rendering media objects, creating an input form with styled JSX, and creating a minimalistic user display page that showcased my image and skills.
+
+Day 4
+
+During the fourth day, I focused on learning about functional components in React. I learnt that JSX can be created outside of components and then called within the component or can be entirely pasted into the component. With this knowledge, I revised the exercises from the previous day to render functional components instead of JSX. Additionally, I organized all the components within the <App> component, as it is the standard practice in React.
