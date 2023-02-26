@@ -18,3 +18,7 @@ On the third day, I downloaded the necessary extensions and applications require
 Day 4
 
 During the fourth day, I focused on learning about functional components in React. I learnt that JSX can be created outside of components and then called within the component or can be entirely pasted into the component. With this knowledge, I revised the exercises from the previous day to render functional components instead of JSX. Additionally, I organized all the components within the <App> component, as it is the standard practice in React.
+
+Day 5
+
+On Day 5, I learned about how to pass data from one component to another using props. I practiced passing data from a parent component to a child component and learned about how to use destructuring to access props in functional components. This made the code much cleaner and easier to read, especially when dealing with objects.
