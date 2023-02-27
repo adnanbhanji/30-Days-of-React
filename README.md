@@ -21,4 +21,4 @@ During the fourth day, I focused on learning about functional components in Reac
 
 Day 5
 
-On Day 5, I learned about how to pass data from one component to another using props. I practiced passing data from a parent component to a child component and learned about how to use destructuring to access props in functional components. This made the code much cleaner and easier to read, especially when dealing with objects.
+On Day 5, I learned about how to pass data from one component to another using props. I practiced passing data from a parent component to a child component and learned about how to use destructuring to access props in functional components. This made the code much cleaner and easier to read, especially when dealing with objects. Additionally, I also changed yesterday's exercises to use props to pass data to components.
