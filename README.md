@@ -22,3 +22,11 @@ During the fourth day, I focused on learning about functional components in Reac
 Day 5
 
 On Day 5, I learned about how to pass data from one component to another using props. I practiced passing data from a parent component to a child component and learned about how to use destructuring to access props in functional components. This made the code much cleaner and easier to read, especially when dealing with objects. Additionally, I also changed yesterday's exercises to use props to pass data to components.
+
+Day 6
+
+On day 6 of my React challenge, I worked on mapping and rendering items. This is an important skill to have when working with arrays of data, and I learned how to use the map() method to create dynamic lists in my React components. Throughout the day, I also did 3-4 exercises to practice these concepts and improve my skills. By the end of the day, I felt more confident in my ability to map and render items in my React applications.
+
+Day 7
+
+On day 7 of my React challenge, I learned about the useState hook, which is a fundamental hook used for managing state in functional components. I spent time studying the syntax of the hook and how it works, and then practiced implementing it in several exercises. Through these exercises, I learned how to declare state variables and update them using the useState hook, as well as how to pass state variables as props to other components. By the end of the day, I felt much more confident in my ability to use this important hook in my React applications.
