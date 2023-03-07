@@ -30,3 +30,15 @@ On day 6 of my React challenge, I worked on mapping and rendering items. This is
 Day 7
 
 On day 7 of my React challenge, I learned about the useState hook, which is a fundamental hook used for managing state in functional components. I spent time studying the syntax of the hook and how it works, and then practiced implementing it in several exercises. Through these exercises, I learned how to declare state variables and update them using the useState hook, as well as how to pass state variables as props to other components. By the end of the day, I felt much more confident in my ability to use this important hook in my React applications.
+
+Day 8
+
+On day 8 of my React challenge, I focused on learning about the useEffect hook, which is a hook used for handling side effects in functional components. I learned about the different ways to use the useEffect hook, such as with or without dependencies. I also learned about cleanup functions and how to use them to clean up after the component unmounts. Overall, I found the useEffect hook to be a powerful tool for handling side effects in my React applications, and I am excited to continue learning more about it. By the end of the day, I felt confident in my understanding of the useEffect hook and how to use it effectively in my projects.
+
+Day 9
+
+On day 9 of my React challenge, I focused on learning about conditional rendering in React. I studied the React beta docs and learned about the different ways to do conditional rendering using if statements, logical operators, and ternary operators. I found that ternary operators were particularly useful for simple conditional rendering, while if statements were better suited for more complex conditions. I also spent time doing exercises on the beta docs page to practice my skills. By the end of the day, I felt much more confident in my ability to do conditional rendering in React, and I am excited to use these techniques in my future projects.
+
+Day 10
+
+On day 10 of my React challenge, I focused on learning about the recommended folder structure for React projects. I learned that organizing components in their own folder with subfolders for each component is a good way to keep things organized and easy to manage. I also learned about the convention of keeping component-specific styles within the component's folder. Additionally, I learned about the purpose of the assets folder within the src folder, which is where images, fonts, and other static files should be stored. By the end of the day, I felt confident in my understanding of the recommended folder structure for React projects, and I am excited to implement this structure in my future projects.
