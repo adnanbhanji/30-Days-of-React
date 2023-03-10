@@ -42,3 +42,5 @@ On day 9 of my React challenge, I focused on learning about conditional renderin
 Day 10
 
 On day 10 of my React challenge, I focused on learning about the recommended folder structure for React projects. I learned that organizing components in their own folder with subfolders for each component is a good way to keep things organized and easy to manage. I also learned about the convention of keeping component-specific styles within the component's folder. Additionally, I learned about the purpose of the assets folder within the src folder, which is where images, fonts, and other static files should be stored. By the end of the day, I felt confident in my understanding of the recommended folder structure for React projects, and I am excited to implement this structure in my future projects.
+
+Day 11
