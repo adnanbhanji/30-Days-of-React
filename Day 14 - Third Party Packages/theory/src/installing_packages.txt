@@ -1,0 +1,33 @@
+You can use either npm or yarn to install packages. If you want to use yarn you have install it separately. Don't use both package management tools in one application at the same time.
+
+Let's see how to install packages to an application. First, we go to the project directory and write the following command.
+
+// syntax, we can use i or install
+npm i package-name
+// or
+yarn add package-name
+
+
+Axios is a JavaScript library which can make HTTP requests to fetch data. In this section we will see on a get request. However, it is possible to do all the request types using axios (GET, POST, PUT, PATCH, DELETE).
+
+Using npm:
+
+ npm install axios
+Using yarn:
+
+ yarn add axios
+
+react-icons
+Icons are integral part of a website. To get different SVG icons
+
+Using npm:
+
+npm install react-icons
+Using yarn:
+
+yarn add react-icons
+
+moment
+Moment is a small JavaScript library which gives us different time formats.
+
+npm install moment
