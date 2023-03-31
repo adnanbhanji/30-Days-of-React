@@ -15,36 +15,60 @@ const FetchData = () => {
     };
     InnerFetch();
   }, []);
-  useEffect(() => {
-    console.log(respData);
-  }, [respData]);
+  // useEffect(() => {
+  //   console.log(respData);
+  // }, [respData]);
 
-  return (
-    <div>
-      {respData ? <MapData data={respData} /> : <div>Loading data...</div>}
-    </div>
-  );
+  return <div>{respData ? <MapData respData={respData} /> : "Loading"}</div>;
 };
 
 const MapData = ({ respData }) => {
-  if (!respData) {
-    return <div>Data is loading...</div>;
-  }
-  console.log(respData);
-  console.log("respData");
+  const [breed, setBreed] = useState({ name: "" });
+  const [respData2, setRespData2] = useState(null);
+
+  useEffect(() => {
+    const getBreed = async () => {
+      const breed = await respData[Math.floor(Math.random() * respData.length)];
+      setBreed(breed);
+      const url2 = `https://api.thecatapi.com/v1/images/search?breed_id=${breed.id}`;
+      try {
+        const response2 = await axios.get(url2);
+        setRespData2(response2.data);
+        // console.log(respData2);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    getBreed();
+  }, []);
+
+  return (
+    <div>
+      <h4>Cats Paradise - Fun Facts</h4>
+      {respData2 && (
+        <>
+          <h4>There are {respData.length} cat breeds</h4>
+          <h4>An average cat can weight about X kg and lives X years. </h4>
+          <h3>Breed of Cat: {breed.name}</h3>
+          {respData2 && (
+            <img
+              style={{ width: 250, height: 250 }}
+              src={respData2[0].url}
+              alt=""
+            />
+          )}
+        </>
+      )}
+    </div>
+  );
 };
 
 const Home = () => {
   return (
     <div>
-      <FetchData />
       <h1>Welcome to the 30 Days React Challenge</h1>
       <h3>Project On Cat - API </h3>
-      <h4>Cats Paradise - Fun Facts</h4>
-      <h4>There are x cat breeds</h4>
-      <h4>An average cat can weight about X kg and lives X years. </h4>
-      <h3>Breed of Cat</h3>
-      <img src="" alt="" />
+      <FetchData />
     </div>
   );
 };
