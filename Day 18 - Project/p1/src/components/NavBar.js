@@ -10,7 +10,7 @@ import Home from "./Home";
 const About = () => <h1>About Us</h1>;
 const Contact = () => <h1>Contact Us</h1>;
 const DummyData = () => {
-  return <h1>React Challenge 30 days</h1>;
+  return <h1>Dummy Data</h1>;
 };
 const NotFound = () => <h1>The page your looking for not found</h1>;
 

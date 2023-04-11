@@ -34,7 +34,8 @@ const MapData = ({ respData }) => {
       try {
         const response2 = await axios.get(url2);
         setRespData2(response2.data);
-        // console.log(respData2);
+        //console.log(respData2);
+        //console.log(breed);
       } catch (error) {
         console.error(error);
       }
@@ -48,7 +49,10 @@ const MapData = ({ respData }) => {
       {respData2 && (
         <>
           <h4>There are {respData.length} cat breeds</h4>
-          <h4>An average cat can weight about X kg and lives X years. </h4>
+          <h4>
+            An average {breed.name} cat can weight about {breed.weight.imperial}{" "}
+            kg and lives {breed.life_span} years.
+          </h4>
           <h3>Breed of Cat: {breed.name}</h3>
           {respData2 && (
             <img
