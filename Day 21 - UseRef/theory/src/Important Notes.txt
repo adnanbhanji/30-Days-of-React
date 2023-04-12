@@ -1,0 +1,17 @@
+
+// The main difference between using a ref for count and using state for
+// count is that when you update a ref, it does not trigger a re-render, while updating state does.
+
+// In simple words, when you update state, React automatically re-renders the component and
+// updates the UI to reflect the new state value. But when you update a ref, React does not
+// re-render the component, and the UI remains unchanged.
+
+// In the example I gave earlier, using a ref for count allows us to update the count value
+// without triggering a re-render. This can be useful when you have a value that needs to be
+// updated frequently but does not affect the UI. In contrast, if we used state for count,
+// every time we update the value, React would re-render the component and update the UI,
+// even if the UI did not actually need to change.
+
+// So, to summarize, refs are useful for storing values that need to be accessed across
+// re-renders without triggering a re-render, while state is useful for storing values
+// that affect the UI and need to trigger a re-render when they are updated.
