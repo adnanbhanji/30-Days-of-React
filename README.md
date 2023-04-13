@@ -50,3 +50,43 @@ On day 11, I learned about handling events in React. Specifically, I focused on 
 Day 12
 
 On day 12 of my React challenge, I deepened my knowledge of forms and form validation in React. I focused on building custom validation logic using props, state, and HTML attributes such as pattern and required. I learned how to validate form inputs in real-time using event handlers such as onChange and how to provide feedback to the user using dynamic error messages. I also delved deeper into more advanced topics such as form submission. I learned how to handle form submissions using the onSubmit event, which allows me to prevent the default behavior of a form and instead perform custom logic such as sending data to a server or updating the component state. Overall, I felt more confident in my ability to build robust and user-friendly forms in React without relying on external libraries, and I looked forward to exploring more advanced topics such as integrating form data with APIs and optimizing form performance.
+
+Day 13
+
+On day 13 of my React challenge, I delved into the concept of uncontrolled inputs. Unlike controlled inputs, which are updated by the component's state, uncontrolled inputs rely on the DOM to maintain their state. I learned how to create uncontrolled inputs using the useRef hook and how to access their current values using the current property. I also explored the benefits and drawbacks of using uncontrolled inputs and when they may be more appropriate than controlled inputs. Overall, I gained a better understanding of the different approaches to managing form inputs in React and felt more equipped to make informed decisions about which approach to use in different scenarios.
+
+Day 14
+
+On day 14 of my React challenge, I focused on integrating third-party packages into my React projects. I learned how to install and import packages using tools such as npm and yarn and how to configure and customize their settings. I explored popular React packages such as React Router, Axios, React Icons and how they can help streamline the development process by providing pre-built components and functionality. I also learned how to read and understand package documentation to effectively implement and use third-party packages in my projects. Overall, I felt more confident in my ability to leverage the power of existing packages to create more efficient and effective React applications.
+
+Day 15
+
+On day 15 of my React challenge, I delved into the concept of higher-order components (HOCs). HOCs are functions that take a component and return a new component with additional functionality. I explored how HOCs can help improve code reusability and simplify complex component logic. Overall, I felt more confident in my ability to create more modular and reusable components in React.
+
+Day 16
+
+On day 16 of my React challenge, I focused on React Router, a popular library for handling client-side routing in React applications. I learned how to install and set up React Router using the BrowserRouter and Route components and how to use it to create multiple pages within a single-page application. I also explored more advanced topics such as nested routes, dynamic routing, and protected routes. Overall, I felt more comfortable with handling routing in React and was excited to explore more complex routing scenarios.
+
+Day 17
+
+On day 17 of my React challenge, I delved into fetching data from external APIs using tools such as Fetch and Axios. I learned how to use these tools to make GET requests and how to handle the response data using promises and async/await. I also explored how to handle common issues such as handling errors and managing loading states. Overall, I felt more confident in my ability to retrieve and manage data from external sources in React applications.
+
+Day 18
+
+On day 18 of my React challenge, I worked on a project that involved retrieving data from a cat API. I focused on building the API integration, using Axios to make requests to the API and retrieve cat data. I also learned how to manage the response data and map it to the appropriate format for use in the application.I mostly extracted data such as cat weight, average lifespan, breed name, nickname, etc. I learnt how to use async await with useEffect hook. Overall, I felt more confident in my ability to work with external APIs in React projects.
+
+Day 19
+
+On day 19 of my React challenge, I continued working on the cat API project, with a focus on styling and design. I normally use Tailwind CSS, but due to it being a really simple project I used vanilla CSS to make a visually appealing user interface. Overall, I felt more confident in my ability to create well-designed and visually appealing React applications.
+
+Day 20
+
+On day 20 of my React challenge, I delved into the concept of custom hooks. I learned how to create custom hooks to encapsulate reusable logic and how to share stateful logic across multiple components. I focused on building a custom hook for a form that generates a random joke using an API. I learned how to create a custom hook that can be used in several components. Overall, I felt more confident in my ability to create and use custom hooks in my React projects.
+
+Day 21
+
+On day 21 of my React challenge, I focused on the useRef hook. I learned how to use this hook to reference DOM elements and manipulate their properties and values. I also explored how to use useRef to manage form inputs and how to access and manipulate their values. Overall, I felt more comfortable with using the useRef hook to interact with the DOM and manage form inputs in React.
+
+Day 22
+
+On day 22 of my React challenge, I focused on implementing authentication with Firebase. I learned how to set up Firebase authentication in my React project and how to use the Firebase Authentication API to handle user authentication and authorization. I focused on implementing user login and signup with email and password, and learned how to manage user data. Overall, I felt more confident in my ability to implement authentication in my React projects using Firebase.
