@@ -1,0 +1,61 @@
+Explanation of how the process works
+
+store.js
+
+The Redux store is a central data store that holds the application's entire state. 
+It is responsible for dispatching actions, handling those actions with the appropriate reducers, 
+and updating the state with the new data.
+
+So in our case, we have created a store using the redux toolkit, and have set a reducer to a function 
+(counterReducer) which we will look into further. Then we can export the store and use it in other sections
+to connect it with components and all. 
+
+counterReducer.js
+
+The code defines an initial state object for the counter, which has a count property set to 0. 
+It also defines a reducer function that updates the counter state based on dispatched actions. 
+In Redux, a reducer is a pure function that takes the current state and an action as arguments, 
+and returns the new state based on the action type. The counterReducer function in this code uses 
+a switch statement to check the action type and update the state accordingly. If the action 
+type is INCREMENT, it returns a new object with the count property incremented by 1. If the 
+action type is DECREMENT, it returns a new object with the count property decremented by 1. 
+If the action type is unknown or the reducer is called for the first time, it returns the 
+current state. Finally, the counterReducer function is exported so it can be used in other
+parts of the application.
+
+Counter.js
+
+The code above is a React component called Counter that is connected to the Redux store using 
+the connect function from the react-redux library. It takes the count value from the store's 
+state and renders it to the DOM along with two buttons that allow the user to increment or 
+decrement the count value. When a button is clicked, it calls the handleIncrement or handleDecrement 
+function respectively, which dispatches an action to the store's reducer to update the count value 
+in the store's state. The mapStateToProps function is used to map the count value from the store's 
+state to the Counter component's props so that it can be accessed in the component. This allows the
+ Counter component to stay in sync with the store's state and render the correct count value on the screen.
+
+Key Terms
+
+Store: This is the central place that holds the entire state of the application.
+
+Actions: These are plain JavaScript objects that describe what happened in the application. 
+They have a "type" property that describes the type of action, and can have additional data as needed.
+
+Reducers: These are functions that take the current state and an action as arguments, and return a new state.
+They should be pure functions that don't modify the current state directly,
+but instead create a new state based on the current state and the action.
+
+Dispatch: This is a function that sends an action to the store. When an action is dispatched, 
+it goes through all the reducers in the store, and each reducer decides how to update 
+its part of the state based on the action type.
+
+Connect: This is a function provided by the react-redux library that connects a React component to 
+the Redux store. It provides the component with access to the store's state and dispatch functions via props.
+
+mapStateToProps: This is a function that takes the state from the store and maps it to props that 
+are passed to the connected component.
+
+mapDispatchToProps: This is a function that maps the dispatch function to props that are passed to 
+the connected component.
+
+
