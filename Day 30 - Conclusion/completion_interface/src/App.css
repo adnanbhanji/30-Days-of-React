@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #18191a;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  filter: grayscale(1) brightness(70%);
+  transition: filter 0.3s ease-in-out;
+  object-fit: cover;
+}
+
+img:hover {
+  filter: none;
+}
