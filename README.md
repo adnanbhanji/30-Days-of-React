@@ -122,3 +122,5 @@ On day 29 of my React challenge, I spent time reviewing some of the projects I h
 Day 30
 
 On day 30 of my React challenge, I concluded the challenge. I reflected on what I had learned and how I had grown as a React developer. Through this challenge, I gained a deeper understanding of React and its related technologies, and I feel more confident in my ability to create robust and engaging applications using React. Lastly, I also made a simple interface with the React 30 Days Challenge Completed Picture and some simple animations.
+
+Adnan Bhanji
