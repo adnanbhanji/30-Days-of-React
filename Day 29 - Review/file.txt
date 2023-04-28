@@ -1,0 +1,5 @@
+- Polished GitHub and projects
+- Updated README file for progress of all days.
+- Worked on portfolio
+- Became an ambassador of 30DaysOfReact
+

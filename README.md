@@ -90,3 +90,35 @@ On day 21 of my React challenge, I focused on the useRef hook. I learned how to 
 Day 22
 
 On day 22 of my React challenge, I focused on implementing authentication with Firebase. I learned how to set up Firebase authentication in my React project and how to use the Firebase Authentication API to handle user authentication and authorization. I focused on implementing user login and signup with email and password, and learned how to manage user data. Overall, I felt more confident in my ability to implement authentication in my React projects using Firebase.
+
+Day 23
+
+On day 23 of my React challenge, I focused on Redux, a state management library for React. I learned the basics of Redux, including the concepts of actions, reducers, and the store. I explored how Redux can help manage complex application states and how it can be integrated into a React project. Through various examples and tutorials, I learned about the Redux data flow and how to use Redux to manage the state of my React components.
+
+Day 24
+
+On day 24 of my React challenge, I created a project that utilized an external Country API to retrieve country data such as flags, names, populations, and languages. I used Axios to retrieve data from the API and displayed it in a visually appealing interface that I designed myself. Through this project, I solidified my understanding of how to work with APIs in React and how to integrate external data into my applications.
+
+Day 25
+
+On day 25 of my React challenge, I explored React Context and how it can be used to implement user sign-in functionality in a React application. I learned how to create a context and how to provide and consume that context within nested components. Through practical examples, I saw how React Context can simplify state management in larger applications and how it can be used as an alternative to Redux.
+
+Day 26
+
+On day 26 of my React challenge, I learned how to create animations in React and explored the Framer Motion library. I learned how to create animations using Framer Motion. I also learnt how you can integrate React functionalities like ternary operators and state in Framer Motion to build logic in animations. Through practical examples, I saw how animations can improve the user experience of a React application and how they can be used to add an extra layer of polish.
+
+Day 27
+
+On day 27 of my React challenge, I began exploring React Native, a framework for building mobile applications using React. I learned the basics of React Native and created a simple app that displayed some text and an image. Through this project, I learned about the differences between React and React Native and gained a better understanding of how to develop applications for mobile devices.
+
+Day 28
+
+On day 28 of my React challenge, I worked on a Twitter clone project. I implemented the functionality of a user typing a tweet, and all tweets being displayed on the screen. I used Material UI icons and CSS to design the interface. Through this project, I gained a better understanding of how to create complex React applications and how to use third-party libraries to enhance the user interface.
+
+Day 29
+
+On day 29 of my React challenge, I spent time reviewing some of the projects I had created throughout the challenge. I worked on updating my README.md file to showcase what I had accomplished each day and to summarize my progress throughout the challenge.
+
+Day 30
+
+On day 30 of my React challenge, I concluded the challenge. I reflected on what I had learned and how I had grown as a React developer. Through this challenge, I gained a deeper understanding of React and its related technologies, and I feel more confident in my ability to create robust and engaging applications using React. Lastly, I also made a simple interface with the React 30 Days Challenge Completed Picture and some simple animations.
